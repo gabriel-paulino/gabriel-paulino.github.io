@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Gabriel Paulino</title>
+</head>
+
+<body>
+
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top mb-0">
+        <a href="#home"><img id="logo" class="logo" src="img/icons/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-0 mx-lg-1 nav-link rounded"><a id="nav-link1"
+                        class="js-scroll-trigger nav-item nav-link active text-white" href="#home">Sobre
+                    </a></li>
+                <li class="nav-item mx-0 mx-lg-1 nav-link rounded"><a id="nav-link2"
+                        class="js-scroll-trigger nav-item nav-link  text-white" href="#projetos">Portfolio</a></li>
+                <li class="nav-item mx-0 mx-lg-1 nav-link rounded"><a id="nav-link3"
+                        class="js-scroll-trigger nav-item nav-link  text-white" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="mb-0 pb-0 slider1">
+        <div class="container text-center">
+            <h1 class="strong headline mt-5 pt-0">Gabriel Paulino</h1>
+            <p class="p_justify mb-3" id="text1">Apaixonado por tecnologia, sempre disposto a aprender e a melhorar,
+                este sou eu 😂. Seja muito bem vindo à essa humilde página, pensada e desenvolvida por mim mesmo.</p>
+            <div class="row mb-0 pb-0">
+                <div class="col-lg-6">
+                    <img class="gabriel m-0" src="./img/minha_foto.jpeg" alt="Minha foto" width="60%">
+                </div>
+                <div class="col-lg-6">
+                    <h3 id="subtitle">Quem sou eu?</h3>
+                    <p class="p_justify" id="text2">Nasci em 03.09.1990 na cidade de Sorocaba/SP, iniciei minha carreira
+                        profissional na troca de óleo do Alemão, me formei em Engenharia Elétrica (2014) na Facens e
+                        iniciei uma nova etapa profissional na escola Etec Armando Panuzzio, atuei como auxiliar de
+                        docente, onde permaneci por mais de 3 anos, também sou formado pelo programa de Formação
+                        Pedagógica para Educação Profissional e nesse meio
+                        tempo me surgiu o interesse em atuar na área tecnológica e hoje sou estudante do curso de
+                        Análise e desenvolvimento de Sistemas, na Fatec, atuo na área de desenvolvimento na Uppertools
+                        tecnologia,
+                        adoro participar dos MeetUp do Grupo Sorocaba CSS, tenho objetivo de me tornar um analista de
+                        sistemas e me dedico muito sempre em oferecer sempre um bom trabalho. Além disso sou muito bem
+                        noivado e em breve casado com uma mulher
+                        incrível que é mais que um raio de sol, é no sol inteiro que me ilumina, aquece e eu amo 😂😂.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="slider2">
+        <section id="projetos">
+            <div class="container text-center">
+                <h3 class="strong m-0">JOBS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#portfolioModal1"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/cadastro_empresa.png" alt="Cadastro Empresa">
+                            <h4>Cadastro Empresa</h4>
+                            <p>Projeto de cadastro de empresas, feito na linguagem C# utilizando o Entity Framework e a
+                                biblioteca Refit, atividade proposta em uma das etapas do processo seletivo da
+                                Uppertools
+                            </p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal2"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/game.png" alt="React for Gamers">
+                            <h4>Game</h4>
+                            <p>Projeto feito usando a biblioteca React, feito num curso da heroway ministrado pelo
+                                professor
+                                Gabriel Tosta</p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal3"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/sandrahair.jpg" alt="Sandra Hair">
+                            <h4>Sandra Hair</h4>
+                            <p>Primeiro projeto Web utilizando apenas HTML, CSS e JavaScript. Página web que
+                                proporcionou
+                                grandes aprendizados, ah Sandra é a minha mãe hehe :p</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" id="middle">
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#portfolioModal4"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/arduino.png" alt="Arduino">
+                            <h4>Arduino/AppInventor</h4>
+                            <p>Atividade prática desenvolvida na Etec Armando Pannunzio, com ajuda do professor e grande
+                                amigo Elvio Maciel, para conclusão do curso de Formação pedagógica para educação
+                                profissional -
+                                CPS</p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal5"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/instalacoes_eletricas.jpg" alt="Instalações elétricas">
+                            <h4>Instalações elétricas</h4>
+                            <p>Além de programar, também tenho experiencia em instalações elétricas, projeto completo
+                                para
+                                instalações de refletores no estacionamento da Etec Armando Pannunzio.</p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal6"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/redes.jpg" alt="Redes">
+                            <h4>Redes</h4>
+                            <p>Atividade para adequação de toda a infraestrutura em dois laboratórios da Etec Armando
+                                Pannunzio, na parte de rede.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="page-section contact">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase mt-0 mb-3">Contato</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <form action="https://formspree.io/gabriel.paulino104@gmail.com" method="POST">
+                            <div class="form-row align-items-center">
+                                <div class="form-group ml-auto mr-auto" style="width: 80%;">
+                                    <label for="formGroupExampleInput1">Nome</label>
+                                    <input type="text" class="form-control" name="nome" id="formGroupExampleInput1"
+                                        placeholder="Name" required="required" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="form-row align-items-center">
+                                <div class="form-group ml-auto mr-auto" style="width: 80%;">
+                                    <label for="formGroupExampleInput2">E-mail</label>
+                                    <input type="email" class="form-control" name="e-mail" id="formGroupExampleInput2"
+                                        placeholder="Email Address" required="required" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="form-row align-items-center">
+                                <div class="form-group ml-auto mr-auto" style="width: 80%;">
+                                    <label for="formGroupExampleInput3">Mensagem</label>
+                                    <textarea class="form-control" name="mensagem" cols="40" rows="6"
+                                        id="formGroupExampleInput3" placeholder="Your message"
+                                        style="width: 100%;"></textarea>
+
+                                </div>
+                            </div>
+                            <div class="form-row align-items-center">
+                                <div class="form-group ml-auto mr-auto">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>© 2020, Desenvolvido por mim mesmo <a target="_blank"
+                                href="https://github.com/gabriel-paulino"><img class="rede-social"
+                                    src="img/icons/github.png" alt="Perfil do Github"></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/gabriel-paulin0/"><img
+                                    class="rede-social" src="img/icons/linkedin.png" alt="Perfil no Linkedin"></a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+
+    <!--Modal Cadastro Empreasa:-->
+    <div class="portfolio-modal modal fade modal-teste" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Cadastro
+                                    empresa
+                                </h2>
+                                <img class="img-fluid rounded mb-3" src="./img/cadastro_empresa.png" alt="">
+                                <p class="mb-3 p_justify">Esse projeto foi uma das etapas no processo seletivo para
+                                    estagio
+                                    em
+                                    desenvolvimento na Uppertools, na qual fui um dos escolhidos :D \o/ . O projeto
+                                    tinha como objetivo, obter os dados de uma empresa informando seu Cnpj e
+                                    cadastrar
+                                    no banco de dados todos esses dados recuperados. Nesse projeto, aprendi a como
+                                    fazer
+                                    uma requisição REST em um web service da receita federal, utilizei uma
+                                    biblioteca
+                                    chamada Refit para obter os dados e para salvá-los no banco de dados usei o
+                                    Entity
+                                    framework.
+                                </p>
+                                <p>Acesse o
+                                    <a href="https://github.com/gabriel-paulino/CadastroEmpresa"
+                                        target="_blank">Repositório</a></p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Game:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">React for gamers
+                                </h2>
+                                <img class="img-fluid rounded mb-3" src="./img/gamegif.gif" style="width: 300px;"
+                                    alt="Game">
+                                <p class="mb-3 p_justify">Esse projeto foi resultado de um curso online da Heroway,
+                                    nesse curso tive a oportunidade de ter um primeiro contato com a biblioteca
+                                    React.
+                                    Obs: O projeto ainda não
+                                    foi finalizado ='(
+                                </p>
+                                <p>Acesse o
+                                    <a href="https://github.com/gabriel-paulino/react4gamers"
+                                        target="_blank">Repositório</a></p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Sandra Hair:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Sandra Hair
+                                </h2>
+                                <img class="img-fluid rounded mb-3" src="./img/sandra-hair.PNG" alt="Sandra Hair">
+                                <p class="mb-3 p_justify">Foi a primeira página web que desenvolvi, utilizando
+                                    apenas
+                                    HTML, CSS e JavaScript. Página responsiva com alguns efeitos bem legais haha, o
+                                    site
+                                    encontra-se <a href="https://sandrahair.github.io/" target="_blank">Online.</a>
+                                    Confira agora mesmo! :D</p>
+
+                                <p>Acesse o
+                                    <a href="https://github.com/sandrahair/sandrahair.github.io"
+                                        target="_blank">Repositório</a></p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Arduino:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center" style="margin-bottom: 100px;">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Arduino/AppInventor
+                                </h2>
+                                <img class="img-fluid rounded mb-3" src="./img/app_inventor.png" alt="AppInventor"
+                                    width="300px">
+                                <p class=" mb-3 p_justify">Esse projeto consistiu na elaboração de um aplicativo
+                                    para
+                                    celular
+                                    que possua sistema operacional Android por meio da plataforma online
+                                    AppInventor, a
+                                    fim de estabelecer uma comunicação entre celular e o circuito eletrônico, para
+                                    ligar
+                                    e/ou desligar um LED/Lâmpada.</p>
+                                <p>Clique <a target="_blank" href="https://www.youtube.com/watch?v=SI9LHQkl2Bs">Aqui</a>
+                                    para ver o
+                                    funcionamento ou
+                                    acesse o
+                                    <a href="https://drive.google.com/file/d/1lvnT7zWUEdk5NuxZX6Rpomht3KpDnLY1/view?usp=sharing"
+                                        target="_blank">TCC</a> para mais detalhes.</p>
+                                <button class="btn btn-primary mt-3" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Instalações elétricas:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Instalações elétricas
+                                </h2>
+                                <img onclick="mClick(this)" onmouseover="mOver(this)" onmouseout="mOut(this)"
+                                    class="img-fluid rounded mb-3" src="./img/IE1.jpeg" alt="Instalações Elétricas">
+                                <p class="mb-3 p_justify">Esse projeto teve como objetivo principal a instalação de
+                                    refletores no estacionamento da escola Etec Armando Pannunzio, no entanto, foi
+                                    necessário refazer toda a parte elétrica para suportar a nova carga e possuir
+                                    uma
+                                    folga para futuras ampliações de carga , então, a partir de um quadro geral da
+                                    escola foram passados 4 cabos de 16mm cada para alimentar o novo quadro de
+                                    distribuição localizado na guarita, foram separados todos os circuitos:
+                                    iluminação
+                                    interna, externa, tomadas, motor do portão, refletores, etc tudo respeitando a
+                                    norma
+                                    NBR-5410.
+                                </p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Redes:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Redes
+                                </h2>
+                                <img class="img-fluid rounded mb-3" id="slide" src="./img/lab_2.jpeg" alt="Redes">
+                                <p class="mb-3 p_justify">Foi reformulada toda a infraestrutura de redes de dados em
+                                    dois laboratórios da escola Etec Armando Pannunzio, sendo necessária a criação
+                                    de 14
+                                    novos pontos de rede em um laboratório e mais 13 pontos de rede em outro, foi
+                                    necessário instalar as tubulações e perfilados para a passagem dos cabos, foi
+                                    instalado uma cabine para fixação de um filtro de linha e dois switches e dois
+                                    patch
+                                    panel. Além dessa parte de dados, foi refeito toda a parte de iluminação, deu
+                                    muito
+                                    trabalho mais foi extremamente recompensante ver tudo funcionando conforme
+                                    planejado.</p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <a href="#home" title="Subir a tela" id="Btn-Go-to-Top"><img class="image-go-to-top"
+                src="img/icons/go-to-top.png" alt="" /></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

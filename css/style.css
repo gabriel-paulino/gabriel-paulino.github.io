@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+.logo {
+    width: 100px;  
+    margin: 0; 
+}
+
+nav{
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
+    background: linear-gradient(to left, #272727, #5d5d5d) !important;
+    padding: 0 !important;
+}
+  
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+.p_justify{
+    text-align: justify;
+}
+
+#home, #middle{
+    padding: 40px 0;
+}
+
+h1{
+    padding-top: 60px;;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27) !important;
+    margin: 15px 0;
+}
+
+img {
+    margin: 15px 0;
+    transition: .3s ease-in;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+.icon {
+    width: 30px;
+}
+
+.rede-social {
+    width: 50px;
+    margin: 5px 25px;
+    cursor: pointer;
+}
+
+.rede-social:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.jobs:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: linear-gradient(to left, #272727, #5d5d5d);
+    padding: 10px 0;
+}
+
+footer p {
+    font-family: 'Audiowide', cursive;
+    color: #FFF;
+}
+
+#Btn-Go-to-Top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    padding: 0 15px;
+    border-radius: 25%;
+    border: 1px #272727 solid;
+    opacity: 0.7;
+    background-color: #5d5d5d;
+    text-decoration: none;
+  }
+  
+  #Btn-Go-to-Top:hover {
+    background-color: #272727;
+  }
+
+.image-go-to-top {
+    width: 35px;
+  }
+
+  .contact button {
+    width: 100%;
+    background: linear-gradient(to left, #272727, #5d5d5d);
+    letter-spacing: 2px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    color: #111111;
+    font-size: 20px;
+    border: 2px #272727 solid;
+    overflow: hidden;
+    transition: 1s all ease;
+    z-index: 1;
+    padding: 0 80px;
+    margin: 20px 0;
+  }
+  
+  .contact button::before {
+    background: linear-gradient(to left, #ee8c8c, #550000);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .contact button::before {
+    width: 0;
+    height: 100%;
+  }
+  
+  .contact button:hover::before {
+    width: 100%;  
+  }
+
+  .slider1, .slider2  {
+    background: linear-gradient(to left, #868686, #d1d1d1) !important;
+  }
