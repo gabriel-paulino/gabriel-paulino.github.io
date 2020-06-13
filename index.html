@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top mb-0">
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top mb-0">
         <a href="#home"><img id="logo" class="logo" src="img/icons/logo.png" alt="Logo"></a>
         <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,7 +110,7 @@
                                 para
                                 instalações de refletores no estacionamento da Etec Armando Pannunzio.</p>
                         </div>
-                        <div data-toggle="modal" data-target="#portfolioModal6"
+                        <div data-toggle="modal" data-target="#portfolioModal6" onclick="iniciarSlide();"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/redes.jpg" alt="Redes">
                             <h4>Redes</h4>
@@ -319,7 +319,7 @@
                     <div class="container">
                         <div class="row justify-content-center" style="margin-bottom: 100px;">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-uppercase m-0">Arduino/AppInventor
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Arduino AppInventor
                                 </h2>
                                 <img class="img-fluid rounded mb-3" src="./img/app_inventor.png" alt="AppInventor"
                                     width="300px">
@@ -397,15 +397,16 @@
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
-                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
-                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <img onclick="pararSlide();" class="icon close" data-dismiss="modal" aria-label="Close"
+                    src="./img/icons/icon_close1.png" alt="Close window"
+                    style="position: relative; margin-left: 90%; cursor: pointer;">
                 <div class="modal-body text-center" style="padding: 0;">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <h2 class="portfolio-modal-title text-uppercase m-0">Redes
                                 </h2>
-                                <img class="img-fluid rounded mb-3" id="slide" src="./img/lab_2.jpeg" alt="Redes">
+                                <img class="img-fluid rounded mb-3" id="slide" src="./img/lab_1.jpeg" alt="Redes">
                                 <p class="mb-3 p_justify">Foi reformulada toda a infraestrutura de redes de dados em
                                     dois laboratórios da escola Etec Armando Pannunzio, sendo necessária a criação
                                     de 14
@@ -417,8 +418,8 @@
                                     muito
                                     trabalho mais foi extremamente recompensante ver tudo funcionando conforme
                                     planejado.</p>
-                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
-                                    style="padding: 0 25px">
+                                <button onclick="pararSlide();" class="btn btn-primary mb-5 mt-2" href="#"
+                                    data-dismiss="modal" style="padding: 0 25px">
                                     <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
                                         style="width: 20px;">
                                     Close Window

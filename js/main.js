@@ -1,6 +1,7 @@
 const targets = Array.from(document.querySelectorAll('.js-scroll-trigger'));
 const navbar = document.getElementById('mainNav');
 const slide = document.getElementById('slide');
+var timeOut;
 
 window.onscroll = function () { scrollFunction() };
 
@@ -39,7 +40,6 @@ targets.map(el => {
 });
 
 
-
 function mOver(obj) {
     obj.src = "img/IE2.jpeg";
 }
@@ -52,19 +52,21 @@ function mClick(obj) {
     obj.src = "img/IE3.jpeg";
 }
 
-var nrImagem = 2;
-var imagens = [];
 
-imagens[0] = "img/lab_1.jpeg";
-imagens[1] = "img/lab_2.jpeg";
-
-function rodarImagens() {
-    slide.src = imagens[nrImagem++];
-    if (nrImagem >= imagens.length)
-        nrImagem = 0;
-    setTimeout("rodarImagens()", 2000);
+function iniciarSlide() {
+    slide.src = "img/lab_1.jpeg";
+    timeOut = setTimeout("continuarSlide()", 2000);
 }
-rodarImagens();
+
+function continuarSlide() {
+    slide.src = "img/lab_2.jpeg";
+    timeOut = setTimeout("iniciarSlide()", 2000);
+}
+
+function pararSlide() {
+    clearTimeout(timeOut);
+    slide.src = "img/lab_1.jpeg";
+}
 
 const gabriel = document.querySelector(".gabriel");
 const slider1 = document.querySelector(".slider1");
