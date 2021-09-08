@@ -38,20 +38,14 @@
             <p class="p_justify mb-3" id="text1">Apaixonado por tecnologia, sempre disposto a aprender e a melhorar,
                 este sou eu 😂. Seja muito bem vindo à essa humilde página, pensada e desenvolvida por mim mesmo.</p>
             <div class="row mb-0 pb-0">
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <img class="gabriel m-0" src="./img/minha_foto.jpeg" alt="Minha foto" width="60%">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <h3 id="subtitle">Quem sou eu?</h3>
-                    <p class="p_justify" id="text2">Nascido em 03/09/1990 na cidade de Sorocaba/SP, iniciei minha
-                        carreira profissional na troca de óleo do Alemão e me formei em Engenharia Elétrica (2014) na
-                        Facens. Iniciei uma nova etapa profissional na escola Etec Armando Panuzzio, atuei como auxiliar
-                        de docente, onde permaneci por mais de 3 anos, também sou formado pelo programa de Formação
-                        Pedagógica para Educação Profissional.
-                        Nesse meio tempo, surgiu o interesse em atuar na área tecnológica, hoje sou estudante do curso
-                        de Análise e desenvolvimento de Sistemas na Fatec, atuo na área de desenvolvimento na Uppertools
-                        tecnologia e adoro participar dos MeetUp do Grupo Sorocaba CSS. O meu objetivo é ser um analista
-                        de sistemas, me dedico muito para oferecer sempre um bom trabalho.
+                    <p class="p_justify" id="text2">Formado em Engenharia Elétrica e
+                        estudante do curso de Análise e desenvolvimento de Sistemas.
+                        Atuo na área de desenvolvimento de software desde março de 2020.
                     </p>
                 </div>
             </div>
@@ -61,10 +55,18 @@
     <main class="slider2">
         <section id="projetos">
             <div class="container text-center">
-                <h3 class="strong m-0">JOBS</h3>
+                <h3 class="strong m-0">Projetos</h3>
                 <div class="container">
                     <div class="row">
                         <div data-toggle="modal" data-target="#portfolioModal1"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/api.jpg" alt="Projeto Vendas ZP Metais">
+                            <h4>Sales Project</h4>
+                            <p>TCC - Curso de Análise e desenvolvimento de sistemas.
+                                Customização do processo de vendas em uma Web API feita em ASP.NET Core
+                            </p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal2"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/cadastro_empresa.png" alt="Cadastro Empresa">
                             <h4>Cadastro Empresa</h4>
@@ -73,27 +75,28 @@
                                 Uppertools
                             </p>
                         </div>
-                        <div data-toggle="modal" data-target="#portfolioModal2"
+                    </div>
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#portfolioModal3"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/game.png" alt="React for Gamers">
                             <h4>Game</h4>
-                            <p>Projeto feito usando a biblioteca React, feito num curso da heroway ministrado pelo
+                            <p>Projeto feito a partir da biblioteca React, feito em curso online da Heroway ministrado
+                                pelo
                                 professor
                                 Gabriel Tosta</p>
                         </div>
-                        <div data-toggle="modal" data-target="#portfolioModal3"
+                        <div data-toggle="modal" data-target="#portfolioModal4"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/sandrahair.jpg" alt="Sandra Hair">
                             <h4>Sandra Hair</h4>
                             <p>Primeiro projeto Web utilizando apenas HTML, CSS e JavaScript. Página web que
                                 proporcionou
-                                grandes aprendizados, ah Sandra é a minha mãe hehe :p</p>
+                                grandes aprendizados.</p>
                         </div>
                     </div>
-                </div>
-                <div class="container" id="middle">
                     <div class="row">
-                        <div data-toggle="modal" data-target="#portfolioModal4"
+                        <div data-toggle="modal" data-target="#portfolioModal5"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/arduino.png" alt="Arduino">
                             <h4>Arduino/AppInventor</h4>
@@ -102,7 +105,7 @@
                                 profissional -
                                 CPS</p>
                         </div>
-                        <div data-toggle="modal" data-target="#portfolioModal5"
+                        <div data-toggle="modal" data-target="#portfolioModal6"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/instalacoes_eletricas.jpg" alt="Instalações elétricas">
                             <h4>Instalações elétricas</h4>
@@ -110,12 +113,14 @@
                                 para
                                 instalações de refletores no estacionamento da Etec Armando Pannunzio.</p>
                         </div>
-                        <div data-toggle="modal" data-target="#portfolioModal6" onclick="iniciarSlide();"
+                    </div>
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#portfolioModal7" onclick="iniciarSlide();"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
                                 src="img/redes.jpg" alt="Redes">
                             <h4>Redes</h4>
-                            <p>Atividade para adequação de toda a infraestrutura em dois laboratórios da Etec Armando
-                                Pannunzio, na parte de rede.</p>
+                            <p>Projeto de infraestrutura em dois laboratórios da Etec Armando
+                                Pannunzio.</p>
                         </div>
                     </div>
                 </div>
@@ -137,21 +142,21 @@
                                 <div class="form-group ml-auto mr-auto" style="width: 80%;">
                                     <label for="formGroupExampleInput1">Nome</label>
                                     <input type="text" class="form-control" name="nome" id="formGroupExampleInput1"
-                                        placeholder="Name" required="required" style="width: 100%;">
+                                        placeholder="Nome" required="required" style="width: 100%;">
                                 </div>
                             </div>
                             <div class="form-row align-items-center">
                                 <div class="form-group ml-auto mr-auto" style="width: 80%;">
                                     <label for="formGroupExampleInput2">E-mail</label>
                                     <input type="email" class="form-control" name="e-mail" id="formGroupExampleInput2"
-                                        placeholder="Email Address" required="required" style="width: 100%;">
+                                        placeholder="E-mail" required="required" style="width: 100%;">
                                 </div>
                             </div>
                             <div class="form-row align-items-center">
                                 <div class="form-group ml-auto mr-auto" style="width: 80%;">
                                     <label for="formGroupExampleInput3">Mensagem</label>
                                     <textarea class="form-control" name="mensagem" cols="40" rows="6"
-                                        id="formGroupExampleInput3" placeholder="Your message"
+                                        id="formGroupExampleInput3" placeholder="Escreva aqui"
                                         style="width: 100%;"></textarea>
 
                                 </div>
@@ -172,7 +177,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>© 2020, Desenvolvido por mim mesmo <a target="_blank"
+                        <p>© 2021, Desenvolvido por mim mesmo <a target="_blank"
                                 href="https://github.com/gabriel-paulino"><img class="rede-social"
                                     src="img/icons/github.png" alt="Perfil do Github"></a>
                             <a target="_blank" href="https://www.linkedin.com/in/gabriel-paulin0/"><img
@@ -186,7 +191,7 @@
         </footer>
     </main>
 
-    <!--Modal Cadastro Empreasa:-->
+    <!--Modal Sales Project:-->
     <div class="portfolio-modal modal fade modal-teste" id="portfolioModal1" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
@@ -200,24 +205,80 @@
                                 <h2 class="portfolio-modal-title text-uppercase m-0">Cadastro
                                     empresa
                                 </h2>
+                                <img class="img-fluid rounded mb-3 border border-dark" src="./img/sales_project.jpg" alt="">
+                                <p class="mb-3 p_justify">Esse projeto é uma customização do processo de vendas de uma
+                                    empresa fictícia chamada 'ZP Metais' esse projeto é o back-end dessa customização,
+                                    sendo basicamente uma Web Api Rest que atende as regras de negócio da empresa 'ZP
+                                    Metais', esse projeto foi a minha contribuição com o TCC do curso de Análise e
+                                    desenvolvimento de sistemas, além de ser parte do TCC, também o chamo de 'minha
+                                    cobaia' 😂 pois é nesse projeto onde aplico aquilo que estou estudando. Nesse
+                                    projeto aprendi:
+                                <ul class="list-group">
+                                    <li class="list-group-item">Arquitetura em camadas</li>
+                                    <li class="list-group-item">Rest</li>
+                                    <li class="list-group-item">Action Results</li>
+                                    <li class="list-group-item">Parâmetros via URL</li>
+                                    <li class="list-group-item">Repository Pattern</li>
+                                    <li class="list-group-item">Unit of Work Pattern</li>
+                                    <li class="list-group-item">Dispose Pattern</li>
+                                    <li class="list-group-item">Data Context</li>
+                                    <li class="list-group-item">Inversion of Control</li>
+                                    <li class="list-group-item">Mapping Entidade x Campo BD</li>
+                                    <li class="list-group-item">Entity Framework</li>
+                                    <li class="list-group-item">Migrations</li>
+                                    <li class="list-group-item">Autenticação</li>
+                                    <li class="list-group-item">Token JWT Bearer</li>
+                                    <li class="list-group-item">Integração com API de terceiros</li>
+                                    <li class="list-group-item">Documentação API com Swagger</li>
+                                    <li class="list-group-item">Extensions</li>
+                                    <li class="list-group-item">Testes de unidade</li>
+                                    <li class="list-group-item">e muito mais... 😀🚀⭐</li>
+                                </ul>
+                                </p>
+                                <p>Acesse o
+                                    <a href="https://github.com/gabriel-paulino/SalesProject"
+                                        target="_blank">Repositório</a>
+                                </p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Cadastro Empreasa:-->
+    <div class="portfolio-modal modal fade modal-teste" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Cadastro
+                                    empresa
+                                </h2>
                                 <img class="img-fluid rounded mb-3" src="./img/cadastro_empresa.png" alt="">
-                                <p class="mb-3 p_justify">Esse projeto foi uma das etapas no processo seletivo para
-                                    estagio
-                                    em
-                                    desenvolvimento na Uppertools, na qual fui um dos escolhidos :D \o/ . O projeto
-                                    tinha como objetivo, obter os dados de uma empresa informando seu Cnpj e
-                                    cadastrar
-                                    no banco de dados todos esses dados recuperados. Nesse projeto, aprendi a como
-                                    fazer
-                                    uma requisição REST em um web service da receita federal, utilizei uma
-                                    biblioteca
-                                    chamada Refit para obter os dados e para salvá-los no banco de dados usei o
-                                    Entity
-                                    framework.
+                                <p class="mb-3 p_justify">Projeto do qual sinto muito orgulho, pois serviu como
+                                    porta de entrada para de minha carreira na área de desenvolvimento. Esse
+                                    projeto tem o objetivo, recuperar os dados (em um Web Service) de uma empresa a
+                                    partir de seu Cnpj e persistir essa informação no banco de dados. Nesse projeto,
+                                    aprendi a como fazer uma requisição REST em uma web service (Receita WS), as
+                                    tecnologias usadas foram: biblioteca Refit e Entity framework.
                                 </p>
                                 <p>Acesse o
                                     <a href="https://github.com/gabriel-paulino/CadastroEmpresa"
-                                        target="_blank">Repositório</a></p>
+                                        target="_blank">Repositório</a>
+                                </p>
                                 <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
                                     style="padding: 0 25px">
                                     <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
@@ -233,7 +294,7 @@
     </div>
 
     <!--Modal Game:-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -250,12 +311,11 @@
                                 <p class="mb-3 p_justify">Esse projeto foi resultado de um curso online da Heroway,
                                     nesse curso tive a oportunidade de ter um primeiro contato com a biblioteca
                                     React.
-                                    Obs: O projeto ainda não
-                                    foi finalizado ='(
                                 </p>
                                 <p>Acesse o
                                     <a href="https://github.com/gabriel-paulino/react4gamers"
-                                        target="_blank">Repositório</a></p>
+                                        target="_blank">Repositório</a>
+                                </p>
                                 <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
                                     style="padding: 0 25px">
                                     <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
@@ -271,7 +331,7 @@
     </div>
 
     <!--Modal Sandra Hair:-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -286,14 +346,15 @@
                                 <img class="img-fluid rounded mb-3" src="./img/sandra-hair.PNG" alt="Sandra Hair">
                                 <p class="mb-3 p_justify">Foi a primeira página web que desenvolvi, utilizando
                                     apenas
-                                    HTML, CSS e JavaScript. Página responsiva com alguns efeitos bem legais haha, o
+                                    HTML, CSS e JavaScript. Página responsiva, o
                                     site
                                     encontra-se <a href="https://sandrahair.github.io/" target="_blank">Online.</a>
-                                    Confira agora mesmo! :D</p>
+                                    Confira agora mesmo! 😀</p>
 
                                 <p>Acesse o
                                     <a href="https://github.com/sandrahair/sandrahair.github.io"
-                                        target="_blank">Repositório</a></p>
+                                        target="_blank">Repositório</a>
+                                </p>
                                 <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
                                     style="padding: 0 25px">
                                     <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
@@ -309,7 +370,7 @@
     </div>
 
     <!--Modal Arduino:-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -336,7 +397,8 @@
                                     funcionamento ou
                                     acesse o
                                     <a href="https://drive.google.com/file/d/1lvnT7zWUEdk5NuxZX6Rpomht3KpDnLY1/view?usp=sharing"
-                                        target="_blank">TCC</a> para mais detalhes.</p>
+                                        target="_blank">TCC</a> para mais detalhes.
+                                </p>
                                 <button class="btn btn-primary mt-3" href="#" data-dismiss="modal"
                                     style="padding: 0 25px">
                                     <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
@@ -352,7 +414,7 @@
     </div>
 
     <!--Modal Instalações elétricas:-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -366,7 +428,8 @@
                                 </h2>
                                 <img onclick="mClick(this)" onmouseover="mOver(this)" onmouseout="mOut(this)"
                                     class="img-fluid rounded mb-3" src="./img/IE1.jpeg" alt="Instalações Elétricas">
-                                <p class="mb-3 p_justify">Esse projeto teve como objetivo principal a instalação de
+                                <p class="mb-3 p_justify">Planejado e executado em conjunto com meu amigo
+                                    Elvio Maciel, esse projeto, teve como objetivo principal a instalação de
                                     refletores no estacionamento da escola Etec Armando Pannunzio, no entanto, foi
                                     necessário refazer toda a parte elétrica para suportar a nova carga e possuir
                                     uma
@@ -393,7 +456,7 @@
     </div>
 
     <!--Modal Redes:-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -411,12 +474,13 @@
                                     dois laboratórios da escola Etec Armando Pannunzio, sendo necessária a criação
                                     de 14
                                     novos pontos de rede em um laboratório e mais 13 pontos de rede em outro, foi
-                                    necessário instalar as tubulações e perfilados para a passagem dos cabos, foi
+                                    necessário instalar as tubulações e perfilados para a passagem dos cabos de rede
+                                    Cat-6, foi
                                     instalado uma cabine para fixação de um filtro de linha e dois switches e dois
                                     patch
                                     panel. Além dessa parte de dados, foi refeito toda a parte de iluminação, deu
                                     muito
-                                    trabalho mais foi extremamente recompensante ver tudo funcionando conforme
+                                    trabalho mais foi extremamente gratificante ver tudo funcionando conforme
                                     planejado.</p>
                                 <button onclick="pararSlide();" class="btn btn-primary mb-5 mt-2" href="#"
                                     data-dismiss="modal" style="padding: 0 25px">
