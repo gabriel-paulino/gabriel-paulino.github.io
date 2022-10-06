@@ -44,7 +44,7 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <h3 id="subtitle">Quem sou eu?</h3>
                     <p class="p_justify" id="text2">Formado em Engenharia Elétrica e
-                        estudante do curso de Análise e desenvolvimento de Sistemas.
+                        em Análise e desenvolvimento de Sistemas.
                         Atuo na área de desenvolvimento de software desde março de 2020.
                     </p>
                 </div>
@@ -57,6 +57,23 @@
             <div class="container text-center">
                 <h3 class="strong m-0">Projetos</h3>
                 <div class="container">
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#portfolioModal9"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/find-dev.png" alt="Find Dev">
+                            <h4>Find Dev</h4>
+                            <p>Um projeto desenvolvido em grupo durante o treinamento Dev For Tech I Mobile - React Native. Pela
+                                Gama Academy em parceria com a ACATE
+                            </p>
+                        </div>
+                        <div data-toggle="modal" data-target="#portfolioModal8"
+                            class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
+                                src="img/dotnet6.jpg" alt="Easy Oil Filter">
+                            <h4>Easy Oil Filter</h4>
+                            <p>Customização (Windows Forms) para o processo de pequena empresa no ramo de lubrificantes, desenvolvido em .NET 6.0
+                            </p>
+                        </div>
+                    </div>
                     <div class="row">
                         <div data-toggle="modal" data-target="#portfolioModal1"
                             class="col-md-6 col-lg-4 portifolio-item mx-auto"><img class="rounded-circle jobs"
@@ -177,7 +194,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>© 2021, Desenvolvido por mim mesmo <a target="_blank"
+                        <p>© 2022, Desenvolvido por mim mesmo <a target="_blank"
                                 href="https://github.com/gabriel-paulino"><img class="rede-social"
                                     src="img/icons/github.png" alt="Perfil do Github"></a>
                             <a target="_blank" href="https://www.linkedin.com/in/gabriel-paulin0/"><img
@@ -192,7 +209,7 @@
     </main>
 
     <!--Modal Sales Project:-->
-    <div class="portfolio-modal modal fade modal-teste" id="portfolioModal1" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -253,7 +270,7 @@
     </div>
 
     <!--Modal Cadastro Empreasa:-->
-    <div class="portfolio-modal modal fade modal-teste" id="portfolioModal2" tabindex="-1" role="dialog"
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
         aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -495,6 +512,96 @@
         </div>
     </div>
 
+    <!--Modal Easy Oil Filter:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Easy Oil Filter
+                                </h2>
+                                <img class="img-fluid rounded mb-3 border border-dark" src="./img/easy-oil-filter.PNG" alt="">
+                                <p class="mb-3 p_justify">Esse projeto é uma customização que atende as regras de negócio de uma pequena empresa do setor de lubrificantes.
+                                    Esse projeto contém:
+                                <ul class="list-group">
+                                    <li class="list-group-item">.NET 6.0</li>
+                                    <li class="list-group-item">Arquitetura em camadas</li>
+                                    <li class="list-group-item">Query SQL</li>
+                                    <li class="list-group-item">Dapper</li>
+                                    <li class="list-group-item">Data Context</li>
+                                    <li class="list-group-item">Unit of Work Pattern</li>
+                                    <li class="list-group-item">Repository Pattern</li>
+                                    <li class="list-group-item">Dispose Pattern</li>
+                                </ul>
+                                </p>
+                                <p>Acesse o
+                                    <a href="https://github.com/gabriel-paulino/EasyOilFilter"
+                                        target="_blank">Repositório</a>
+                                </p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Find Dev:-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <img class="icon close" data-dismiss="modal" aria-label="Close" src="./img/icons/icon_close1.png"
+                    alt="Close window" style="position: relative; margin-left: 90%; cursor: pointer;">
+                <div class="modal-body text-center" style="padding: 0;">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-uppercase m-0">Find Dev
+                                </h2>
+                                <img class="img-fluid rounded mb-3 border border-dark" src="./img/find-dev-home.png" alt="">
+                                <p class="mb-3 p_justify">Um projeto desenvolvido em React Native durante o Dev For Tech I Mobile - React Native.
+                                    Um projeto de atração, treinamento e recrutamento de Tech talents mantido pela
+                                    Gama Academy em parceria com a ACATE.
+                                    Nesse projeto, usamos:
+                                <ul class="list-group">
+                                    <li class="list-group-item">Typescript</li>
+                                    <li class="list-group-item">Expo bare workflow</li>
+                                    <li class="list-group-item">Redux</li>
+                                    <li class="list-group-item">AWS Amplify</li>
+                                    <li class="list-group-item">AWS Cognito</li>
+                                    <li class="list-group-item">Axios</li>
+                                    <li class="list-group-item">Styled components</li>
+                                </ul>
+                                </p>
+                                <p>Acesse o
+                                    <a href="https://github.com/MaganoAlan/FIND_DEV-GAMA_ACADEMY"
+                                        target="_blank">Repositório</a>
+                                </p>
+                                <button class="btn btn-primary mb-5 mt-2" href="#" data-dismiss="modal"
+                                    style="padding: 0 25px">
+                                    <img class="icon mr-2" src="./img/icons/icon_close2.png" alt="Close window"
+                                        style="width: 20px;">
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div>
         <a href="#home" title="Subir a tela" id="Btn-Go-to-Top"><img class="image-go-to-top"
